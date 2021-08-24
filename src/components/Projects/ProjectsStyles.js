@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Img = styled.img`
   width:100%;
-  height:100%;
+  height:35%%;
   object-fit: cover;
   overflow: hidden;
 `
@@ -24,13 +24,16 @@ row-gap: 3rem;
 `
 export const BlogCard = styled.div`
   border-radius: 10px;
-  box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
+  box-shadow: 3px 3px 20px rgba(161, 153, 153, 0.5);
   text-align: center;
   width: 400px;
+  height: 670px;
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
   }
 `;
+
+
 export const TitleContent = styled.div`
   text-align: center;
   z-index: 20;

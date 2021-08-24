@@ -2,6 +2,7 @@ import React from 'react';
 import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
+import { SiGatsby } from "react-icons/si";
 
 const Technologies = () =>  (
  <Section id="tech">
@@ -13,7 +14,7 @@ const Technologies = () =>  (
      <ListItem>
        <DiReact size="3rem" />
        <ListContainer>
-         <ListTitle>Front-End</ListTitle>
+         <ListTitle>React</ListTitle>
          <ListParagraph>
            Experience with <br />
            React.js
@@ -22,9 +23,9 @@ const Technologies = () =>  (
      </ListItem>
 
      <ListItem>
-       <DiFirebase size="3rem" />
+       <SiGatsby size="2rem" />
        <ListContainer>
-         <ListTitle>Back-End</ListTitle>
+         <ListTitle>Gatsby</ListTitle>
          <ListParagraph>
            Experience with <br />
            Node.js and Databases
@@ -35,14 +36,49 @@ const Technologies = () =>  (
      <ListItem>
        <DiZend size="3rem" />
        <ListContainer>
-         <ListTitle>UI/UX</ListTitle>
+         <ListTitle>JavaScript</ListTitle>
          <ListParagraph>
            Experience with <br />
            tools like Figma
          </ListParagraph>
        </ListContainer>
      </ListItem>
+
+     <ListItem>
+       <DiZend size="3rem" />
+       <ListContainer>
+         <ListTitle>Django</ListTitle>
+         <ListParagraph>
+           Experience with <br />
+           tools like Figma
+         </ListParagraph>
+       </ListContainer>
+     </ListItem>
+
+     <ListItem>
+       <DiZend size="3rem" />
+       <ListContainer>
+         <ListTitle>Django</ListTitle>
+         <ListParagraph>
+           Experience with <br />
+           tools like Figma
+         </ListParagraph>
+       </ListContainer>
+     </ListItem>
+
+     <ListItem>
+       <DiZend size="3rem" />
+       <ListContainer>
+         <ListTitle>Django</ListTitle>
+         <ListParagraph>
+           Experience with <br />
+           tools like Figma
+         </ListParagraph>
+       </ListContainer>
+     </ListItem>
+     
    </List>
+   
  </Section>
 );
 
