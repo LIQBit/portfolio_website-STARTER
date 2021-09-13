@@ -36,15 +36,15 @@ const Header = () =>  (
 
     <Div3>
       <SocialIcons href="https://github.com/LIQBit">
-        <AiFillGithub size="3rem" />
+        <AiFillGithub size="5rem" />
       </SocialIcons>
 
       <SocialIcons href="https://www.linkedin.com/in/leighbitossi/">
-        <AiFillLinkedin size="3rem" />
+        <AiFillLinkedin size="5rem" />
       </SocialIcons>
 
       <SocialIcons href="https://instagram.com">
-        <AiFillInstagram size="3rem" />
+        <AiFillInstagram size="5rem" />
       </SocialIcons>
     </Div3>
   </Container>

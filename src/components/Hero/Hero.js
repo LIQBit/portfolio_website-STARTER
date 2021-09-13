@@ -11,9 +11,9 @@ const Hero = () => (
         Leigh Bitossi
       </SectionTitle>
       <SectionText>
-      I'm a website developer with experience in editing and media and I also have a passion for building easy-to-use websites and applications. I'm looking for a role as an entry-level Frontend developer.
+      Front-End Developer.<br /> <br /> Have a look around, get to know a bit about me, some of my work, and maybe even get in touch!
       </SectionText>
-      <Button onClick={() => window.location = 'https://google.com'}>Learn More</Button>
+      {/*<Button onClick={() => window.location = 'https://google.com'}>Learn More</Button>*/}
     </LeftSection>
   </Section>
 );

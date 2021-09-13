@@ -9,25 +9,25 @@ const Footer = () => {
     <FooterWrapper>
       <LinkList>
         <LinkColumn>
-          <LinkTitle>Call</LinkTitle>
-          <LinkItem href="tel:444-4444">444-4444</LinkItem>
+          <LinkTitle>Skype</LinkTitle>
+          <LinkItem href="">leeroy_w</LinkItem>
         </LinkColumn>
 
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
-          <LinkItem href="mailto:man@mail.com">man@mail.com</LinkItem>
+          <LinkItem href="mailto:liqbitossi@gmail.com">liqbitossi@gmail.com</LinkItem>
         </LinkColumn>
       </LinkList>
           <SocialContainer>
             <CompanyContainer>
-              <Slogan>I like lamp</Slogan>
+              <Slogan>leighbitossi.com</Slogan>
             </CompanyContainer>
 
-            <SocialIcons href="https://github.com">
+            <SocialIcons href="https://github.com/LIQBit">
               <AiFillGithub size="3rem" />
             </SocialIcons>
 
-            <SocialIcons href="https://linkedin.com">
+            <SocialIcons href="https://www.linkedin.com/in/leighbitossi/">
               <AiFillLinkedin size="3rem" />
             </SocialIcons>
 
